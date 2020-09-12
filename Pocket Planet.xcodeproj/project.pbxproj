@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		ADE2FA24250CA98900C8105A /* Pocket_PlanetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE2FA23250CA98900C8105A /* Pocket_PlanetApp.swift */; };
-		ADE2FA26250CA98900C8105A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE2FA25250CA98900C8105A /* ContentView.swift */; };
+		ADE2FA26250CA98900C8105A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE2FA25250CA98900C8105A /* HomeView.swift */; };
 		ADE2FA28250CA98B00C8105A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA27250CA98B00C8105A /* Assets.xcassets */; };
 		ADE2FA2B250CA98B00C8105A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA2A250CA98B00C8105A /* Preview Assets.xcassets */; };
-		ADE2FA33250CA9CE00C8105A /* 3D Models in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA32250CA9CE00C8105A /* 3D Models */; };
+		ADE2FA35250CD04700C8105A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE2FA34250CD04700C8105A /* Model.swift */; };
+		ADE2FA44250CD55800C8105A /* Mercury.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA43250CD55700C8105A /* Mercury.usdz */; };
+		ADE2FA45250CE38500C8105A /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA3F250CD2D700C8105A /* Earth.usdz */; };
+		ADE2FA46250CE38500C8105A /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA39250CD2D700C8105A /* Jupiter.usdz */; };
+		ADE2FA47250CE38500C8105A /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA38250CD2D700C8105A /* Mars.usdz */; };
+		ADE2FA48250CE38500C8105A /* Moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA37250CD2D700C8105A /* Moon.usdz */; };
+		ADE2FA49250CE38500C8105A /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA3E250CD2D700C8105A /* Neptune.usdz */; };
+		ADE2FA4A250CE38500C8105A /* Pluto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA3B250CD2D700C8105A /* Pluto.usdz */; };
+		ADE2FA4B250CE38500C8105A /* Saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA3A250CD2D700C8105A /* Saturn.usdz */; };
+		ADE2FA4C250CE38500C8105A /* Sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA3C250CD2D700C8105A /* Sun.usdz */; };
+		ADE2FA4D250CE38500C8105A /* Uranus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA3D250CD2D700C8105A /* Uranus.usdz */; };
+		ADE2FA4E250CE38500C8105A /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE2FA36250CD2D600C8105A /* Venus.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADE2FA20250CA98900C8105A /* Pocket Planet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Planet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE2FA23250CA98900C8105A /* Pocket_PlanetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_PlanetApp.swift; sourceTree = "<group>"; };
-		ADE2FA25250CA98900C8105A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADE2FA25250CA98900C8105A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ADE2FA27250CA98B00C8105A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE2FA2A250CA98B00C8105A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADE2FA2C250CA98B00C8105A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADE2FA32250CA9CE00C8105A /* 3D Models */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3D Models"; sourceTree = SOURCE_ROOT; };
+		ADE2FA34250CD04700C8105A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ADE2FA36250CD2D600C8105A /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		ADE2FA37250CD2D700C8105A /* Moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Moon.usdz; sourceTree = "<group>"; };
+		ADE2FA38250CD2D700C8105A /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+		ADE2FA39250CD2D700C8105A /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		ADE2FA3A250CD2D700C8105A /* Saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Saturn.usdz; sourceTree = "<group>"; };
+		ADE2FA3B250CD2D700C8105A /* Pluto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pluto.usdz; sourceTree = "<group>"; };
+		ADE2FA3C250CD2D700C8105A /* Sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sun.usdz; sourceTree = "<group>"; };
+		ADE2FA3D250CD2D700C8105A /* Uranus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Uranus.usdz; sourceTree = "<group>"; };
+		ADE2FA3E250CD2D700C8105A /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Neptune.usdz; sourceTree = "<group>"; };
+		ADE2FA3F250CD2D700C8105A /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		ADE2FA43250CD55700C8105A /* Mercury.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mercury.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +76,10 @@
 		ADE2FA22250CA98900C8105A /* Pocket Planet */ = {
 			isa = PBXGroup;
 			children = (
-				ADE2FA32250CA9CE00C8105A /* 3D Models */,
+				ADE2FA40250CD2EC00C8105A /* 3D Models */,
 				ADE2FA23250CA98900C8105A /* Pocket_PlanetApp.swift */,
-				ADE2FA25250CA98900C8105A /* ContentView.swift */,
+				ADE2FA34250CD04700C8105A /* Model.swift */,
+				ADE2FA25250CA98900C8105A /* HomeView.swift */,
 				ADE2FA27250CA98B00C8105A /* Assets.xcassets */,
 				ADE2FA2C250CA98B00C8105A /* Info.plist */,
 				ADE2FA29250CA98B00C8105A /* Preview Content */,
@@ -70,6 +93,24 @@
 				ADE2FA2A250CA98B00C8105A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADE2FA40250CD2EC00C8105A /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADE2FA3F250CD2D700C8105A /* Earth.usdz */,
+				ADE2FA39250CD2D700C8105A /* Jupiter.usdz */,
+				ADE2FA38250CD2D700C8105A /* Mars.usdz */,
+				ADE2FA37250CD2D700C8105A /* Moon.usdz */,
+				ADE2FA3E250CD2D700C8105A /* Neptune.usdz */,
+				ADE2FA3B250CD2D700C8105A /* Pluto.usdz */,
+				ADE2FA3A250CD2D700C8105A /* Saturn.usdz */,
+				ADE2FA3C250CD2D700C8105A /* Sun.usdz */,
+				ADE2FA43250CD55700C8105A /* Mercury.usdz */,
+				ADE2FA3D250CD2D700C8105A /* Uranus.usdz */,
+				ADE2FA36250CD2D600C8105A /* Venus.usdz */,
+			);
+			path = "3D Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +170,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE2FA45250CE38500C8105A /* Earth.usdz in Resources */,
+				ADE2FA46250CE38500C8105A /* Jupiter.usdz in Resources */,
+				ADE2FA47250CE38500C8105A /* Mars.usdz in Resources */,
+				ADE2FA48250CE38500C8105A /* Moon.usdz in Resources */,
+				ADE2FA49250CE38500C8105A /* Neptune.usdz in Resources */,
+				ADE2FA4A250CE38500C8105A /* Pluto.usdz in Resources */,
+				ADE2FA4B250CE38500C8105A /* Saturn.usdz in Resources */,
+				ADE2FA4C250CE38500C8105A /* Sun.usdz in Resources */,
+				ADE2FA4D250CE38500C8105A /* Uranus.usdz in Resources */,
+				ADE2FA4E250CE38500C8105A /* Venus.usdz in Resources */,
 				ADE2FA2B250CA98B00C8105A /* Preview Assets.xcassets in Resources */,
 				ADE2FA28250CA98B00C8105A /* Assets.xcassets in Resources */,
-				ADE2FA33250CA9CE00C8105A /* 3D Models in Resources */,
+				ADE2FA44250CD55800C8105A /* Mercury.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE2FA26250CA98900C8105A /* ContentView.swift in Sources */,
+				ADE2FA35250CD04700C8105A /* Model.swift in Sources */,
+				ADE2FA26250CA98900C8105A /* HomeView.swift in Sources */,
 				ADE2FA24250CA98900C8105A /* Pocket_PlanetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

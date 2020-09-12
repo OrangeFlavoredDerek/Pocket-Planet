@@ -11,7 +11,7 @@ import SwiftUI
 struct Pocket_PlanetApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
